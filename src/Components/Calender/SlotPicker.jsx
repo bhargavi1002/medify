@@ -44,7 +44,7 @@ const SlotPicker = ({
           flexWrap={"wrap"}
         >
           <Typography
-            flexBasis="15%" // Fixed width for text to align chips
+            flexBasis="15%" 
             fontSize={{ xs: 14, md: 16 }}
           >
             Morning
@@ -68,7 +68,7 @@ const SlotPicker = ({
           flexWrap={"wrap"}
         >
           <Typography
-            flexBasis="15%" // Fixed width for text to align chips
+            flexBasis="15%" 
             fontSize={{ xs: 14, md: 16 }}
           >
             Afternoon
@@ -92,7 +92,7 @@ const SlotPicker = ({
           flexWrap={"wrap"}
         >
           <Typography
-            flexBasis="15%" // Fixed width for text to align chips
+            flexBasis="15%" 
             fontSize={{ xs: 14, md: 16 }}
           >
             Evening
