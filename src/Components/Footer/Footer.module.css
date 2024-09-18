@@ -1,0 +1,31 @@
+.footerContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 0 16px;
+    margin: ;
+  }
+  
+  .footerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .icon {
+    height: 36px;
+  }
+  
+  .footerLink {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .footerLink:hover {
+    color: #ddd;
+  }
+  

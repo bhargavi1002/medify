@@ -1,0 +1,52 @@
+.specializationSection {
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(81deg, #E7F0FF 9.01%, rgba(232, 241, 255, 0.47) 89.11%);
+
+}
+
+@media (max-width: 1024px) {
+    .gridContainer {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+    .specializationContainer{
+        margin-right: 10px;
+    }
+}
+@media (max-width: 768px) {
+    .gridContainer {
+        grid-template-columns: repeat(1, 1fr); 
+    }
+    .specializationContainer{
+        margin-right: 10px;
+    }
+}
+
+.specializationContainer{
+    margin-right: 10px;
+}
+.gridContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    justify-content: center;
+}
+.elementsContainer{
+    margin: 40px 135px; 
+}
+
+.btnSecondary {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #2AA8FF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: Poppins;
+}
+
+.btnSecondary:hover {
+    background-color: #1a8cff;
+}
+
